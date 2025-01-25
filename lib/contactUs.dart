@@ -6,7 +6,7 @@ class ContactUsPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        automaticallyImplyLeading: false, 
+        automaticallyImplyLeading: false,        
         backgroundColor: Colors.deepPurple.shade700,
         title: Text(
           'Contact Us',
