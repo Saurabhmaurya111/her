@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1078810035647",
+    "project_id": "herlytics",
+    "storage_bucket": "herlytics.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1078810035647:android:7cc0625a14515e45adcd0a",
+        "android_client_info": {
+          "package_name": "com.example.herlytics"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBW_X6rrtJV1plP95bYbP4NN6yU3IOFCnE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
