@@ -11,21 +11,21 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 class HomePageModern extends StatelessWidget {
   final List<Map<String, dynamic>> _carouselItems = [
     {
-      "imagePath": "assets/1e.jpg",
+      "imagePath": "assets/events/1e.jpg",
       "title": "Explore New Events",
       "description":
           "Discover a variety of events that empower and inspire women in STEM and data science fields.",
       "buttonText": "Learn More",
     },
     {
-      "imagePath": "assets/2e.jpg",
+      "imagePath": "assets/events/2e.jpg",
       "title": "Learn and Grow",
       "description":
           "Access resources, mentorship, and workshops designed to build a strong foundation in data science.",
       "buttonText": "Join Now",
     },
     {
-      "imagePath": "assets/4.jpg",
+      "imagePath": "assets/events/4.jpg",
       "title": "Shape Your Future",
       "description":
           "Connect with like-minded individuals and become part of a thriving community.",
