@@ -4,6 +4,7 @@ import 'package:herlytics/about.dart';
 import 'package:herlytics/contactUs.dart';
 import 'package:herlytics/gallery.dart';
 import 'package:herlytics/pdf.dart';
+import 'package:herlytics/resources.dart';
 import 'package:herlytics/sign_In_Up.dart/singIn.dart';
 
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
@@ -51,7 +52,7 @@ class HomePageModern extends StatelessWidget {
           const  SizedBox(height: 40),
 
             // Services Section
-            _buildServicesSection(),
+            _buildServicesSection(context),
           const  SizedBox(height: 40),
 
             // Testimonials Section
@@ -282,7 +283,7 @@ class HomePageModern extends StatelessWidget {
     );
   }
 
-  Widget _buildServicesSection() {
+  Widget _buildServicesSection(BuildContext context) {
     return Padding(
       padding:const EdgeInsets.symmetric(horizontal: 40),
       child: Column(
@@ -298,7 +299,17 @@ class HomePageModern extends StatelessWidget {
             children: [
               _serviceCard("Workshops", Icons.work),
               _serviceCard("Mentorship", Icons.person),
-              _serviceCard("Resources", Icons.book),
+              GestureDetector(
+                onTap: () {
+                  // Navigate to resources page
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) =>  ResourcesPage(),
+                    ),
+                  );
+                },
+                child: _serviceCard("Resources", Icons.book)),
             ],
           ),
         ],
